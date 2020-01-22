@@ -1,0 +1,313 @@
+@font-face{
+    font-family: "tiresias";
+    src: url('../fonts/Tiresias_PCfont.ttf') format("truetype")
+
+}
+
+html {
+    cursor: url('curseur.png') 12 12, pointer;
+}
+
+.entete {
+    width: 100%;
+    height: 300px;
+    background: rgb(234, 77, 74);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    font-family: "tiresias";
+    color: seashell;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    margin:50px;
+    margin: calc(1vw + 50px);
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    font-size: calc(1vw + 12px);
+
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 1em;
+}
+
+h2 {
+    width: 100%;
+    height: 125px;
+    background: rgb(234, 77, 74);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    font-family: "tiresias";
+    color: white;
+}
+
+h3 {
+    font-family: "tiresias";
+    font-size: 25px;
+}
+
+.haut {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sommaire{ 
+    font-size: 40px;
+    font-family: "tiresias";
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: left;
+    justify-content: center;
+    flex: 4;
+    font-size: calc(3vw + 9px);
+
+}
+
+.petit {
+    font-size: 20px;
+    font-family: "tiresias";
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: left;
+    flex: 4;
+    font-size: calc(2vw + 6px);
+}
+
+#image {
+    background-color: black;
+    flex:6
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0.25em 0;
+}
+
+#image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+@media (max-width:650px) {
+    .haut {
+        flex-direction: column;
+    }
+    #image, .sommaire {
+        flex: 1;
+    }
+    
+}
+
+.un {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#bimage {
+    flex:6
+
+}
+
+#bimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.texte {
+    flex: 4;
+}
+figure{
+    float: right;
+    width: 12%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    min-width: 500px;
+}
+
+@media (max-width:650px) {
+    .un {
+        flex-direction: column;
+    }
+    #bimage, .texte {
+        flex: 1;
+    }
+}
+
+.color {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    margin:50px;
+    margin: calc(1vw + 50px);
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    font-size: calc(1vw + 12px);
+   
+}
+
+.emoji {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dimage {
+    flex:6
+
+}
+
+#dimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.tt {
+    flex: 4;
+}
+
+figure {
+    float: right;
+    width: 12%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    min-width: 500px;
+
+  }
+  
+@media (max-width:650px) {
+    .emoji {
+        flex-direction: column;
+    }
+    #dimage, .tt {
+        flex: 1;
+    }
+}
+
+.enjeux{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: inherit;
+    justify-content: center;
+} 
+
+.txt {
+    flex: 4;
+}
+
+
+#cimage {
+    flex: 6;
+}
+
+#cimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+figure{
+    float: right;
+    width: 12%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    min-width: 500px;
+}
+
+@media (max-width:650px) {
+    .deux {
+        flex-direction: column;
+    }
+    .enjeux, #cimage {
+        flex-direction: column;
+    }
+}
+
+.static {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 10px solid red;
+    overflow: scroll;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    font-size: calc(1vw + 12px);           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    opacity: 0.7;
+    width: 20vw;
+    
+    
+}
+
+figure {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.xx {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    margin:50px;
+    margin: calc(1vw + 50px);
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    font-size: calc(1vw + 12px);
+}
+
+
+#emoji {
+    flex: 6;
+}
+
+#emoji img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media (max-width:650px) {
+    ..hehe {
+        flex-direction: column;
+    }
+    .xx, #emoji {
+        flex-direction: column;
+    }
+}
